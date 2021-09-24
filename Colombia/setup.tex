@@ -1,0 +1,81 @@
+% !TEX root = my-thesis.tex
+
+
+% **************************************************
+% Files' Character Encoding
+% **************************************************
+%% Not necessary with luaLaTeX
+% 
+% \PassOptionsToPackage{utf8}{inputenc}
+% \usepackage{inputenc}
+
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\newcommand{\thesisTitle}{Informe de Avance}
+\newcommand{\thesisName}{Instituto del Sur Urbano}
+\newcommand{\thesisSubject}{Reporte Inicial}
+\newcommand{\thesisDate}{
+2021}
+
+\newcommand{\thesisFirstSupervisor}{}
+\newcommand{\thesisSecondSupervisor}{}
+
+\newcommand{\thesisUniversityStudies}{\protect{Licenciatura en Tecnologías para la Información en Ciencias}}
+\newcommand{\thesisUniversity}{Universidad Nacional Autónoma de México}     % Replace with your university
+\newcommand{\thesisUniversitySchool}{Escuela Nacional de Estudios Superiores, Unidad Morelia} % Replace with your school
+\newcommand{\thesisUniversityCity}{Morelia}  % Replace with your city
+\newcommand{\thesisUniversityStreetAddress}{Antigua Carretera a Pátzcuaro}
+\newcommand{\thesisUniversityPostalCode}{58000}
+
+
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+%\usepackage[english]{babel} % babel system, adjust the language of the content
+\usepackage{polyglossia}
+\setdefaultlanguage{spanish}
+\setotherlanguages{english}
+
+\PassOptionsToPackage{% setup clean thesis style
+    figuresep=colon,%
+    hangfigurecaption=false,%
+    hangsection=true,%
+    hangsubsection=true,%
+    sansserif=false,%
+    configurelistings=true,%
+    colorize=full,%
+    colortheme=bluemagenta,%
+    configurebiblatex=true,%
+    bibsys=biber,%
+    bibfile=refs,%
+    bibstyle=numeric,%
+    bibsorting=nty,%
+}{SUR}
+
+\usepackage{SUR}
+
+\hypersetup{% setup the hyperref-package options
+    pdftitle={\thesisTitle},    %   - title (PDF meta)
+    pdfsubject={\thesisSubject},%   - subject (PDF meta)
+    pdfauthor={\thesisName},    %   - author (PDF meta)
+    plainpages=false,           %   -
+    colorlinks=false,           %   - colorize links?
+    pdfborder={0 0 0},          %   -
+    breaklinks=true,            %   - allow line break inside links
+    bookmarksnumbered=true,     %
+    bookmarksopen=true          %
+}
+
+% **************************************************
+% Other Packages
+% **************************************************
+\usepackage{scrhack}
+\usepackage{svg}

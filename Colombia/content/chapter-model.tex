@@ -1,0 +1,146 @@
+
+\chapter{Model}
+\label{sec:results}
+
+\cleanchapterquote{Users do not care about what is inside the box, as long as the box does what they need done.}{Jef Raskin}{about Human Computer Interfaces}
+
+Para calcular el costo asociado a la aplicación de tecnologías para la eficiencia en el consumo de combustible y la reducción de emisiones en la flota de vehículos ligeros de Colombia, se utilizó el Modelo de Optimización para Reducir las Emisiones de Gases de Efecto Invernadero de Automóviles (OMEGA).  
+El modelo OMEGA (EPA, 2016-B) \cite{EPA_2016-B}  es un modelo creado por la EPA a través del cual se evaluaron las regulaciones con respecto al consumo de combustible ponderado por corporación (CAFE) para vehículos ligeros de Estados Unidos. 
+El objetivo del modelo OMEGA consiste en fundamentar la aplicación de diferentes paquetes tecnológicos para la reducción en el consumo de combustible y así, alcanzar una meta de reducción en la emisión de gases de efecto invernadero. No obstante, el modelo no pretende indicar las tecnologías que se deban aplicar, sino que busca justificar que la meta propuesta es alcanzable. (EPA, 2016-B) \cite{EPA_2016-B} 
+
+\section{Modelo OMEGA I}
+\label{sec:omega}
+
+La EPA creó la versión inicial del modelo OMEGA para analizar las normativas GHG para vehículos ligeros propuestas en 2011. El modelo central desempeñaba \ref{fig:omega1} la función de identificar las vías de cumplimiento de los fabricantes que minimizaban los costes para cumplir una norma de emisiones de la flota basada en la huella especificada por el usuario. El preprocesamiento del modelo consitía en clasificar los paquetes tecnológicos que debía considerar el modelo en función de su coste-efectividad. El postprocesamiento de los resultados se llevaba a cabo por separado utilizando una hoja de cálculo y, posteriormente, mediante mediante código se generaban resúmenes en forma de tabla de los efectos modelados.
+
+\begin{figure}[htbp]
+   \centering
+   \includesvg[width=0.75\textwidth]{figures/omega1.svg}
+    \caption{OMEGA II}
+    \label{fig:omega1}
+\end{figure}
+
+OMEGA I está desarrollado en el lenguaje de programación C\# y utiliza como insumos principales, hojas de cálculo desarrolladas en Excel. Así mismo, los resultados del modelo son arrojados en hojas de Excel y en archivos de texto. El modelo requiere de 5 libros de Excel como insumos principales para el cálculo de resultados; estos son: Archivo de mercado, archivo de tecnologías, archivo de combustibles, archivo de referencia y el archivo de los escenarios. Cada archivo debe contener información esencial que el modelo utilizará durante la evaluación de costos y aplicación de tecnología. La información involucra la caracterización vehicular, la caracterización de los paquetes tecnológicos, el establecimiento de las metas, entre otras variables que se describen más adelante.  \label{Actualizar Información} \label{Informe Final}
+
+Es necesario mencionar que, el usuario puede configurar el modelo de distintas maneras para establecer escenarios flexibles para el cumplimiento de la meta de consumo de combustible y de emisiones, por ejemplo, es posible establecer una meta fija para toda la flota vehicular o distintas metas divididas por tamaño o tipo de vehículo y teniendo distintos términos de cumplimiento. De igual manera se puede calcular los beneficios teniendo en cuenta algún sector de interés, por ejemplo, dirigido a los fabricantes o para los consumidores.  
+
+El resultado de la modelación es un promedio de emisión alcanzada a través de la aplicación de ciertos paquetes tecnológicos que reducen el consumo de combustible. A su vez, se calcula el costo asociado a dicha aplicación. Este resultado se encuentra ponderado por las millas recorridas y por las ventas de cada fabricante. Los archivos de salida del modelo contienen información detallada sobre la tecnología añadida a cada vehículo, costos y emisiones. Dado que las reducciones de emisiones contemplada por el modelo OMEGA están concebidas solamente por criterios referentes al consumo de combustible, además de que no se toman en cuenta otros tipos de emisiones de otros contaminantes, es posible convertir directamente los resultados de emisiones a rendimiento en el combustible, a través del factor de emisión seleccionado. Esto se realiza a través de la siguiente ecuación: 
+
+$$ \frac{km}{gal} = \frac{7618.04}{\frac{gCO_2}{km}}$$
+
+\subsection{Inputs}
+
+\begin{figure}[htbp]
+   \centering
+   \includesvg[width=1\textwidth]{figures/omega-files.svg}
+    \caption{OMEGA Inputs}
+    \label{fig:omegafiles}
+\end{figure}
+
+\subsubsection{Archivo de Mercado}
+
+OMEGA requiere una flota de referencia detallada, que incluya el fabricante, las ventas, las emisiones de $CO_2$ de base, la huella y el grado de utilización de las tecnologías de eficiencia. Este archivo es la entrada que describe la composición de la flota de vehículos utilizada por el modelo
+para estimar los costos.
+
+\begin{center}
+\begin{tabular}{ |p{2cm}||p{6cm}|}
+ \hline
+ \multicolumn{2}{|c|}{Input Data in Vehicle Worksheet of the Market File} \\
+ \hline
+ Column & Name\\
+ \hline
+    A & Platform Index \# \\
+    B & Vehicle Index \#  \\
+    C & Manufacturer     \\
+    D & Model            \\
+    E & Vehicle Type \#   \\
+    F & Fleet Type       \\
+    H & Vehicle Safety Class \\
+    I & CVCM Class \\
+    J & EPA Vehicle Class \\
+    L & Baseline Sales \\
+    M-T & Annual Sales by Cycle \\
+    V & Tailpipe CO2 (g/mi) \\
+    W & Footprint (ft2) \\
+    X & Curb Weight (lb) \\
+    AG & Primary Fuel Type \\
+    AK-CH & TEB Tech Package 1-50 \\
+    CI-EF & CEB Tech Package 1-50 \\
+    EG-GD & OEB Tech Package 1-50 \\
+    GE-IC & Tech Tracking Codes Package 1-50 \\
+ \hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Archivo de Tecnología}
+
+El archivo de Tecnología contiene los costos y los valores de eficiencia de cada uno de los paquetes tecnológicos por tipo de vehículo. Los paquetes tecnológicos combinan una serie de tecnologías individuales que reducen las emisiones de CO2 según el tipo de vehículo. OMEGA utiliza 29 tipos de vehículos diferentes para asignar paquetes tecnológicos (U.S. EPA, 2016). \cite{EPA_2016-B} Estos tipos de vehículos representan varias categorías de vehículos, incluyendo coches subcompactos, coches medianos, crossovers, utilitarios deportivos (SUV) y camionetas, así como variantes dentro de estas categorías, como los modelos de lujo o deportivos, con diferentes características de rendimiento. \cite{OMEGA_Mexico}
+
+\subsubsection{Archivo de Escenario}
+
+En este archivo se definen los escenarios normativos y otros parámetros económicos. Para definir un escenario, el usuario debe especificar el año, el tipo de objetivo de cumplimiento (CO2 o MPG), el tipo de función de cumplimiento (single-value target, S-shaped target, or piecewise linear) y los nombres de los otros archivos de entrada que describen la flota de vehículos, los paquetes tecnológicos y las propiedades de los combustibles, como se ha descrito anteriormente.
+
+\subsubsection{Archivo de Combustibles}
+
+Este archivo define las propiedades físicas y los precios de los combustibles y las fuentes de energía. El archivo de entrada de combustibles también contiene previsiones de precios anuales para un máximo de 20 años. Estos datos se utilizan únicamente en el postprocesamiento y no se tienen en cuenta en el proceso de optimización.
+
+\begin{center}
+\begin{tabular}{ |p{2cm}||p{6cm}|}
+ \hline
+ \multicolumn{2}{|c|}{Input Data in Fuel Worksheet of the Fuels File} \\
+ \hline
+ Column & Name\\
+ \hline
+    A & Fuel Type \\
+    B & Energy Density \\
+    D & Carbon Density  \\
+    E & CAFE Equivalency Factor \\
+    F-Y & Fuel Price (\$/gal) \\
+ \hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Archivo de Referencia}
+
+Este archivo describe las tasas de supervivencia de los vehículos y los kilómetros recorridos por ambas clases de vehículos, los coches y los camiones ligeros. Se utiliza para estimar las toneladas totales de CO2 emitidas por cada clase de vehículo al calcular los costes en el marco de OMEGA.
+
+\section{Modelación para Colombia}
+
+Este análisis empleó y adaptó el modelo OMEGA versión 1.4.56. \cite{EPA_2016-B} de la EPA a una flota de referencia en Colombia para evaluar los costos y beneficios de un escenarios regulatorio. Esta sección describe la metodología y el modelo utilizados para llevar a cabo el análisis. 
+
+Como se menciona en la sección anterior \label{sec:omega} el modelo se alimenta con distintos archivos con datos específicos sobre la sección del mismo.
+
+\subsection{Archivo de Mercado}
+
+En el archivo de Mercado (Market File) los datos utilizados fueron provistos por la Universidad de Pereira. \cite{Baseline_Pereira_2020}. 
+
+No obstante algunos de los atributos mostrados en la tabla anterior tuvieron que ser calculados de manera independiente. En el caso del \textit{Footprint}, este tuvo que ser estimado a partir de la clase de vehícular anteriormente asignada en este ejercicio.
+
+\subsection{Archivo de Tecnología}
+
+El paquete tecnológico y el conjunto de datos de costos de la EPA fueron desarrollados por la EPA en 2016 y 2017 para el análisis que respalda el desarrollo de las normas de emisiones de GHG y de ahorro de combustible de los vehículos ligeros del año modelo 2017 al 2025.
+
+\subsection{Archivo de Escenario}
+
+\subsection{Archivo de Combustibles}
+
+En el archivo de Combustibles (Fuels File) los datos utilizados fueron obtenidos del Plan Energético Nacional 2020-2050. \cite{Plan_Energetico-2050}
+
+\begin{center}
+\begin{tabular}{ |p{3cm}||p{2cm}||p{1cm}||p{1cm}||p{1cm}||p{1cm}||p{1cm}|}
+ \hline
+ \multicolumn{7}{|c|}{Proyección de precios de los combustibles (UPME)} \\
+ \hline
+ Combustible & Unidad & 2020 & 2025 & 2030 & 2035 & 2040 \\
+ \hline
+    Gasolina & USD/gal & 2,74 & 3,18 & 3,30 & 3,45 & 3,55 \\
+    Diésel & USD/gal & 2,64  & 2,90 &  3,0 &  3,11 &  3,19 \\
+ \hline
+\end{tabular}
+\end{center}
+
+ Los precios de las gasolinas fueron estimados a partir de un modelo lineal alimentados con las estimaciones realizadas por la UPME que se describen en dicho documento.\cite{Plan_Energetico-2050}
+ Adicionalmente se calculó la Densidad del Carbón.
+
+\subsection{Archivo de Referencia}
+
