@@ -4,9 +4,14 @@
 
 \cleanchapterquote{Users do not care about what is inside the box, as long as the box does what they need done.}{Jef Raskin}{about Human Computer Interfaces}
 
-Para calcular el costo asociado a la aplicación de tecnologías para la eficiencia en el consumo de combustible y la reducción de emisiones en la flota de vehículos ligeros de Colombia, se utilizó el Modelo de Optimización para Reducir las Emisiones de Gases de Efecto Invernadero de Automóviles (OMEGA).  
-El modelo OMEGA (EPA, 2016-B) \cite{EPA_2016-B}  es un modelo creado por la EPA a través del cual se evaluaron las regulaciones con respecto al consumo de combustible ponderado por corporación (CAFE) para vehículos ligeros de Estados Unidos. 
-El objetivo del modelo OMEGA consiste en fundamentar la aplicación de diferentes paquetes tecnológicos para la reducción en el consumo de combustible y así, alcanzar una meta de reducción en la emisión de gases de efecto invernadero. No obstante, el modelo no pretende indicar las tecnologías que se deban aplicar, sino que busca justificar que la meta propuesta es alcanzable. (EPA, 2016-B) \cite{EPA_2016-B} 
+A continuación presentamos la metodología propuesta para hacer la modelación que nos permita justificar la viabilidad de la implementación de nuevas metas de eficiencia de combustibles. La modelación esta dividida en tres pasos principales que es el preprocessiamiento, el procesamiento y el postprocesamiento.
+
+En el preprocesamiento obtenemos datos que nos permitan establecer el escenario a modelar en Colombia y ajustamos los datos para que puedan ser procesados por el modelo, es decir, asegurarse de que los datos obtenidos estén en las categorias y unidades propuestas por el modelo. El preprocesamiento de datos y los supuestos en los mismos son la fundación del modelo OMEGA y el escenario a modelar es esencial para que los resultados sean significativos.
+
+Para modelar el escenario propuesto y calcular el costo asociado a la aplicación de tecnologías para la eficiencia en el consumo de combustible y la reducción de emisiones en la flota de vehículos ligeros de Colombia, se utiliza el Modelo de Optimización para Reducir las Emisiones de Gases de Efecto Invernadero de Automóviles (OMEGA).  
+El modelo OMEGA (EPA, 2016-B) \cite{EPA_2016-B} es un modelo creado por la EPA a través del cual se evaluaron las regulaciones con respecto al consumo de combustible ponderado por corporación (CAFE) para vehículos ligeros de Estados Unidos. El objetivo del modelo OMEGA consiste en fundamentar la aplicación de diferentes paquetes tecnológicos para la reducción en el consumo de combustible y así, alcanzar una meta de reducción en la emisión de gases de efecto invernadero. No obstante, el modelo no pretende indicar las tecnologías que se deban aplicar, sino que busca justificar que la meta propuesta es alcanzable. (EPA, 2016-B) \cite{EPA_2016-B} 
+
+Finalmente es importante postprocesar los datos obtenidos en la modelación con OMEGA, este paso nos permite calcular las reducciones de emisiones derivadas de la introducción de nuevas normativas de eficiencia de combustible o de reducciones de emisiones $CO_2$ para vehículos livianos. Para el postprocesamiento proponemos utilizar el modelo FESET propuesto por el ICCT en 2018 \cite{FESET_ICCT}
 
 \section{Modelo OMEGA I}
 \label{sec:omega}
@@ -28,7 +33,7 @@ El resultado de la modelación es un promedio de emisión alcanzada a través de
 
 $$ \frac{km}{gal} = \frac{7618.04}{\frac{gCO_2}{km}}$$
 
-\subsection{Inputs}
+\subsection{Datos para el modelo}
 
 \begin{figure}[htbp]
    \centering
@@ -108,23 +113,35 @@ Este archivo describe las tasas de supervivencia de los vehículos y los kilóme
 
 Este análisis empleó y adaptó el modelo OMEGA versión 1.4.56. \cite{EPA_2016-B} de la EPA a una flota de referencia en Colombia para evaluar los costos y beneficios de un escenarios regulatorio. Esta sección describe la metodología y el modelo utilizados para llevar a cabo el análisis. 
 
-Como se menciona en la sección anterior \label{sec:omega} el modelo se alimenta con distintos archivos con datos específicos sobre la sección del mismo.
+Como se menciona en la sección anterior \label{sec:omega} el modelo se alimenta con distintos archivos con datos específicos sobre la sección del mismo. A continuación una breve descripción de los arvhivos y los datos utilizados para este ejercicio.
 
 \subsection{Archivo de Mercado}
 
-En el archivo de Mercado (Market File) los datos utilizados fueron provistos por la Universidad de Pereira. \cite{Baseline_Pereira_2020}. 
+\begin{center}
+\csvautotabular{tables/marketfile.csv}
+\end{center}
 
-No obstante algunos de los atributos mostrados en la tabla anterior tuvieron que ser calculados de manera independiente. En el caso del \textit{Footprint}, este tuvo que ser estimado a partir de la clase de vehícular anteriormente asignada en este ejercicio.
+En el archivo de Mercado (Market File) los datos utilizados fueron obtenidos gracias al trabajo de la Universidad de Pereira. \cite{Baseline_Pereira_2020}. 126 modelos de automóviles de distintas marcas fueron cargados al modelos con sus respectivos atributos que podemos observar en la sección anterior. No obstante algunos de los atributos utilizados tuvieron que ser calculados de manera independiente. Ajustamos la clase vehicular en el archivo a partir de las clases preestablecidas por la EPA en el modelo. En el caso del \textit{Footprint}, este tuvo que ser estimado a partir de la clase de vehícular anteriormente asignada en este. 
 
 \subsection{Archivo de Tecnología}
 
-El paquete tecnológico y el conjunto de datos de costos de la EPA fueron desarrollados por la EPA en 2016 y 2017 para el análisis que respalda el desarrollo de las normas de emisiones de GHG y de ahorro de combustible de los vehículos ligeros del año modelo 2017 al 2025.
+\begin{center}
+\csvautotabular{tables/techfile.csv}
+\end{center}
+
+Debido a la complejidad de elaborar una nueva propuesta de paquetes tecnológicos utilizamos aquellos desarrollados por la EPA. El conjunto de datos de costos de la EPA fueron desarrollados por la EPA en 2016 y 2017 para el análisis que respalda el desarrollo de las normas de emisiones de GHG y de ahorro de combustible de los vehículos ligeros del año modelo 2017 al 2025.
 
 \subsection{Archivo de Escenario}
 
+\begin{center}
+\csvautotabular{tables/scenariofile.csv}
+\end{center}
+
+El escenario propuesto se describe en la tabla.
+
 \subsection{Archivo de Combustibles}
 
-En el archivo de Combustibles (Fuels File) los datos utilizados fueron obtenidos del Plan Energético Nacional 2020-2050. \cite{Plan_Energetico-2050}
+En el archivo de Combustibles (Fuels File) los datos de la proyección de costos de combustibles utilizados fueron obtenidos del Plan Energético Nacional 2020-2050. \cite{Plan_Energetico-2050}
 
 \begin{center}
 \begin{tabular}{ |p{3cm}||p{2cm}||p{1cm}||p{1cm}||p{1cm}||p{1cm}||p{1cm}|}
@@ -144,3 +161,14 @@ En el archivo de Combustibles (Fuels File) los datos utilizados fueron obtenidos
 
 \subsection{Archivo de Referencia}
 
+\begin{center}
+\csvautotabular{tables/referencefile.csv}
+\end{center}
+
+La tasa de supervivencia para autos y camiones fue obtenida a partir de datos d\cite{Baseline_Pereira_2020}
+
+\section{FESET}
+
+El ICCT ha desarrollado una nueva herramienta centrada en la evaluación, ex-ante y ex-post, de la adopción de nuevas normas sobre la economía de los combustibles o las emisiones de CO2 de los vehículos ligeros. La herramienta del ICCT sobre la evaluación de las normas de GEI/FE de los vehículos FESET (FE Standards Evaluation Tool) ofrece un sencillo método de evaluación ascendente dividido en varias secciones.
+
+La primera sección se centra en la determinación del valor medio de las emisiones de CO2 de la flota, lo que requiere una base de datos detallada de la flota. En la segunda sección se introducen los objetivos anuales de CO2 de la flota. La tercera sección proporciona el inventario de cálculo de las emisiones anuales de CO2 de la flota, incluyendo los números de la flota (históricos y proyectados), la actividad de los vehículos y las curvas de retirada de los mismos. Se proporcionan curvas predefinidas para la degradación de la actividad, las curvas de retirada de vehículos, la brecha de economía de combustible en el mundo real y los efectos del VKT. La cuarta sección cubre el análisis ex-post, y permite al usuario introducir los valores de las emisiones medias de CO2 de la flota, los números reales de registro y cualquier otra actualización del modelo producida después del análisis ex-ante. La última sección, que contiene los resultados, ofrece un resumen de los resultados de las emisiones de CO2 de la flota para el análisis ex-ante y ex-post. 
