@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 529 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-159.507,-100)">
+        <g>
+            <path d="M365.759,247.189C360.018,226.459 341.01,212 319.5,212L319.5,100C391.2,100 454.559,148.196 473.696,217.296L365.759,247.189Z" style="fill:rgb(99,110,250);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,365.174,181.977)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:white;">20.7%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M319.5,212C298.979,212 280.625,225.159 274.039,244.595L167.964,208.649C189.918,143.865 251.097,100 319.5,100L319.5,212Z" style="fill:rgb(239,85,59);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,241.609,180.23)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">19.8%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M274.039,244.595C269.485,258.036 271.118,272.828 278.495,284.951L182.816,343.171C158.225,302.758 152.782,253.452 167.964,208.649L274.039,244.595Z" style="fill:rgb(0,204,150);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,190.444,277.089)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">13.9%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M278.495,284.951C283.817,293.697 291.8,300.516 301.271,304.404L258.735,408.012C227.165,395.052 200.555,372.324 182.816,343.171L278.495,284.951Z" style="fill:rgb(171,99,250);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,223.008,357.482)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">10.1%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M301.271,304.404C309.222,307.668 317.907,308.738 326.413,307.5L342.542,418.332C314.188,422.458 285.241,418.894 258.735,408.012L301.271,304.404Z" style="fill:rgb(255,161,90);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,290.531,390.396)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">8.5%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M326.413,307.5C333.807,306.424 340.85,303.635 346.977,299.358L411.089,391.192C390.665,405.451 367.191,414.745 342.542,418.332L326.413,307.5Z" style="fill:rgb(25,211,243);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,353.874,385.658)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">7.4%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M346.977,299.358C352.687,295.371 357.461,290.19 360.968,284.174L457.728,340.58C446.038,360.633 430.122,377.905 411.089,391.192L346.977,299.358Z" style="fill:rgb(255,102,146);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,402.838,353.982)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">6.9%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M360.968,284.174C363.556,279.735 365.414,274.909 366.472,269.881L476.073,292.938C472.547,309.698 466.353,325.784 457.728,340.58L360.968,284.174Z" style="fill:rgb(182,232,128);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,434.772,314.335)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">5.1%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M366.472,269.881C367.467,265.15 367.742,260.296 367.287,255.483L478.79,244.943C480.307,260.987 479.39,277.168 476.073,292.938L366.472,269.881Z" style="fill:rgb(255,151,255);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,444.884,272.612)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">4.8%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M367.287,255.483C367.022,252.679 366.511,249.903 365.759,247.189L473.696,217.296C476.202,226.344 477.906,235.595 478.79,244.943L367.287,255.483Z" style="fill:rgb(254,203,82);fill-rule:nonzero;"/>
+            <g transform="matrix(0.983445,-0.181206,0.181206,0.983445,441.848,242.287)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">2.8%</text>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,409.073,0)">
+        <rect x="0" y="0" width="119" height="200" style="fill:white;"/>
+        <g>
+            <g>
+                <g transform="matrix(1,0,0,1,0,14.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Renault</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(99,110,250);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,184.966)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Otros</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(239,85,59);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,32.8593)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Chevrolet</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(0,204,150);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,51.8593)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Mazda</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(171,99,250);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,70.8593)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Nissan</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(255,161,90);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,89.8593)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Toyota</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(25,211,243);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,108.859)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">KIA</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(255,102,146);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,127.859)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">VolksWagen</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(182,232,128);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,146.859)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Suzuki</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(255,151,255);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,165.859)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Hyundai</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(254,203,82);"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="113.438" height="19" style="fill-opacity:0;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

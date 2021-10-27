@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 535 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-153.5,-100)">
+        <g>
+            <path d="M268.761,242.611C266.606,248.155 265.5,254.052 265.5,260C265.5,286.332 287.168,308 313.5,308C339.832,308 361.5,286.332 361.5,260C361.5,233.668 339.832,212 313.5,212L313.5,100C401.273,100 473.5,172.227 473.5,260C473.5,347.773 401.273,420 313.5,420C225.727,420 153.5,347.773 153.5,260C153.5,240.172 157.186,220.517 164.369,202.036L268.761,242.611Z" style="fill:rgb(99,110,250);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,372.227,350.582)">
+                <text x="-17.291px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:white;">80.9%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M313.5,212C293.744,212 275.918,224.197 268.761,242.611L164.369,202.036C188.226,140.656 247.647,100 313.5,100L313.5,212Z" style="fill:rgb(239,85,59);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,254.773,178.918)">
+                <text x="-17.291px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">19.1%</text>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,402.84,0)">
+        <rect x="0" y="0" width="132" height="48" style="fill:white;"/>
+        <g>
+            <g>
+                <g transform="matrix(1,0,0,1,0,14.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Importaciones</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(99,110,250);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="126.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,33.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Nacional</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(239,85,59);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="126.375" height="19" style="fill-opacity:0;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 521 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-167.033,-100)">
+        <g>
+            <path d="M371.739,242.611C364.582,224.197 346.756,212 327,212L327,100C392.853,100 452.274,140.656 476.131,202.036L371.739,242.611Z" style="fill:rgb(99,110,250);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,385.727,178.918)">
+                <text x="-17.291px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:white;">19.1%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M327,212C307.571,212 289.975,223.797 282.596,241.771L178.988,199.235C203.584,139.323 262.235,100 327,100L327,212Z" style="fill:rgb(239,85,59);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,269.085,178.368)">
+                <text x="-17.291px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">18.8%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M282.596,241.771C275.465,259.142 279.155,279.169 292.01,292.858L210.365,369.528C167.516,323.898 155.215,257.14 178.988,199.235L282.596,241.771Z" style="fill:rgb(0,204,150);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,224.722,283.595)">
+                <text x="-17.291px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">18.2%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M292.01,292.858C298.666,299.946 307.321,304.847 316.824,306.909L293.079,416.363C261.404,409.491 232.552,393.155 210.365,369.528L292.01,292.858Z" style="fill:rgb(171,99,250);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,266.218,372.094)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">9.6%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M316.824,306.909C325.224,308.731 333.961,308.264 342.119,305.557L377.398,411.855C350.204,420.88 321.079,422.437 293.079,416.363L316.824,306.909Z" style="fill:rgb(255,161,90);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,333.758,391.164)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">8.5%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M342.119,305.557C349.405,303.139 356.006,299.008 361.365,293.512L441.55,371.706C423.685,390.026 401.684,403.795 377.398,411.855L342.119,305.557Z" style="fill:rgb(25,211,243);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,395.647,374.437)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">7.6%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M361.365,293.512C365.518,289.253 368.843,284.26 371.171,278.786L474.237,322.62C466.477,340.866 455.393,357.511 441.55,371.706L361.365,293.512Z" style="fill:rgb(255,102,146);fill-rule:nonzero;"/>
+            <g transform="matrix(1,0,0,1,439.451,339.632)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">5.9%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M371.171,278.786C372.51,275.638 373.509,272.355 374.15,268.994L484.166,289.981C482.029,301.183 478.7,312.125 474.237,322.62L371.171,278.786Z" style="fill:rgb(182,232,128);fill-rule:nonzero;"/>
+            <g transform="matrix(0.956712,0.291036,-0.291036,0.956712,453.48,303.441)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">3.4%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M374.15,268.994C374.772,265.733 375.054,262.415 374.991,259.095L486.972,256.984C487.18,268.051 486.24,279.109 484.166,289.981L374.15,268.994Z" style="fill:rgb(255,151,255);fill-rule:nonzero;"/>
+            <g transform="matrix(0.996405,0.0847213,-0.0847213,0.996405,460.3,276.101)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">3.3%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M374.991,259.095C374.933,255.977 374.57,252.872 373.909,249.824L483.363,226.079C485.567,236.239 486.776,246.59 486.972,256.984L374.991,259.095Z" style="fill:rgb(254,203,82);fill-rule:nonzero;"/>
+            <g transform="matrix(0.993252,-0.115977,0.115977,0.993252,461.929,249.027)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">3.1%</text>
+            </g>
+        </g>
+        <g>
+            <path d="M373.909,249.824C373.376,247.366 372.65,244.955 371.739,242.611L476.131,202.036C479.168,209.848 481.586,217.888 483.363,226.079L373.909,249.824Z" style="fill:rgb(198,202,253);fill-rule:nonzero;"/>
+            <g transform="matrix(0.957622,-0.288029,0.288029,0.957622,461.356,224.549)">
+                <text x="-13.497px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(68,68,68);">2.5%</text>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,416.847,0)">
+        <rect x="0" y="0" width="104" height="219" style="fill:white;"/>
+        <g>
+            <g>
+                <g transform="matrix(1,0,0,1,0,14.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Colombia</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(99,110,250);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,33.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">México</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(239,85,59);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,52.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Brasil</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(0,204,150);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,71.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Corea</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(171,99,250);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,90.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Japón</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(255,161,90);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,109.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Otros</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(25,211,243);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,128.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">China</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(255,102,146);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,147.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">USA</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(182,232,128);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,166.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Tailandia</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(255,151,255);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,185.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Argentina</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(254,203,82);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,204.5)">
+                    <g transform="matrix(1,0,0,1,40,4.68)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:12px;fill:rgb(42,63,95);">Alemania</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,20,0)">
+                        <g>
+                            <g>
+                                <rect x="-6" y="-6" width="12" height="12" style="fill:rgb(198,202,253);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="0" y="-9.5" width="98.375" height="19" style="fill-opacity:0;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
